@@ -1,7 +1,7 @@
 void main()
 {
   Map<String,String>date=
-  {
+  {  //'key ':'value'
     'name':'sondos mahmoud',
     'adress':'Giza,Egypt',
     'age':'21'
