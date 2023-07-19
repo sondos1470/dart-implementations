@@ -1,7 +1,9 @@
+//return.type                name(params)
+//void or any date type      main(      )
 void main(){
 
- int z=math();
- print (z);    // اقدر احط نفس الاسم علشان ده في بلوك وغيره في بلوك ثاني
+ 
+ print (math());    // اقدر احط نفس الاسم علشان ده في بلوك وغيره في بلوك ثاني
 }
 int math()
 {
