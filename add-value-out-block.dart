@@ -2,19 +2,17 @@
 
 void main()
 {
-print (addition(
- x:4,
- y:6,
- first:2,
- second:7,
+print(addition(
+  x:4,
+  y:4,
+ first:4,
+second :6,
+ 
 ));
-
-}
-int addition({required x,required int y ,required int first,required int second})
+}  //required هي الي شالت الايرور لاني كدا وضحتله ان الداتا دي مطلوبه وانا حطيطله قيمته في بلوك ثاني
+int addition({required int x , required int  y , int first=6, int? second})
 {
-    print(first*second) ;
-
-  return x;
+  return x+y;     //return مهمه لازم تتحط
 
 }
 
