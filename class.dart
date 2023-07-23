@@ -1,13 +1,14 @@
 void main(){
-Cars civic=Cars();
-civic.printbrand();
+ //Cars type=Cars();
+//type.printbrand();
+print(Cars().model);
 }
 
 
 
 class Cars{
 String? brand;
-String? model;
+String model='bmw';
 String? colour;
 
 void printbrand()
