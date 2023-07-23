@@ -13,22 +13,17 @@ print(civic.colour);
 
 class Cars
 {
-String? brand;
-String? model;
-String? colour;
+final String? brand;
+final String? model;
+final String? colour;
 
 //constructor
 Cars({
-  String? brand,
-  String? model,
-  String? colour,
+  this.brand,
+  this.model,
+  this.colour
+});
 
-})
-{
-  this.brand=brand;
-  this.model=model;
-  this.colour=colour;
-}
 
 
 }
