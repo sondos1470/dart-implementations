@@ -1,3 +1,4 @@
+
 void main()
 {
 Cars civic=Cars(
@@ -5,25 +6,36 @@ Cars civic=Cars(
   model: 'civic',
   colour: 'black'
 );
-print(civic.brand);
-print(civic.model);
-print(civic.colour);
+civic.printBrand();
+civic.printModel();
+civic.printColour();
+
 }
 
-
+// start here >>> 1
 class Cars
 {
-final String? brand;
-final String? model;
-final String? colour;
+final String brand;
+final String model;
+final String colour;
 
 //constructor
 Cars({
-  this.brand,
-  this.model,
-  this.colour
+ required this.brand,
+ required this.model,
+ required this.colour,
+
 });
-
-
-
+void printBrand()
+{
+  print(brand);
+}
+void printModel()
+{
+  print(model);
+}
+void printColour()
+{
+  print (colour);
+}
 }
